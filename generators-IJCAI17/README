@@ -1,0 +1,17 @@
+Generators of random SAT instances with popularity and similarity.
+Please, read and cite the detailed description in:
+
+@inproceedings{ijcai17,
+  author =	 {Jes{\'u}s Gir{\'a}ldez{-}Cru and Jordi Levy},
+  title =	 {Locality in Random {SAT} Instances},
+  booktitle =	 {Proc. of the 26th Int. Joint Conf. on Artificial Intelligence, IJCAI'17},
+  year =	 2017
+}
+
+Compilation:
+ make all
+
+Description:
+ psc2 - Contains the basic generator described in Section 2.
+ psc3 - Contains the simplified generator described in Subsection 2.3.
+ psc3.1 - Is a more efficient version of psc3 that generates the same output.
